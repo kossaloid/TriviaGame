@@ -1,0 +1,16 @@
+body { 
+    background: url(https://images5.alphacoders.com/433/thumb-1920-433574.png) no-repeat center center fixed; 
+    background-size: cover;  
+}
+
+header {
+    font-size: 40px;
+    font-family: 'fantasy';
+}
+
+.jumbotron {
+    max-width: 760px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}

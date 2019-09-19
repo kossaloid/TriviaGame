@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF=8">
+    <title>Trivia Game</title>
+    <!--jQuery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Bootstrap link-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Rest CSS link-->
+    <link href="C:\Users\Kyle\TriviaGame\assets\reset.css">
+    <!--My CSS link-->
+    <link rel="stylesheet" href="C:\Users\Kyle\TriviaGame\assets\style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <p>Jojo's Bizarre Adventure Trivia</p>
+    </header>
+    <!--Trivia Area-->
+
+    <div class="container">
+        <div class="jumbotron">
+          <div class="container" class="text-center">
+          <div id="game">
+            <h2>Do you know Jojo's Bizarre Adventure?</h2>
+            <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+            <p id="question" class="lead"></p>
+          </div>
+          <div id="results">
+          </div>
+        </div>
+  
+        <div class="row">
+          <div id="choices" class="text-center">
+            <button id="start" class="btn btn-info btn-lg">Bites the dust!</button>
+            <div id="options">
+              
+            </div>
+            
+          </div>
+        </div>
+  
+      </div>
+
+    <!-- My Javascript link -->
+    <script src="C:\Users\Kyle\TriviaGame\assets\triviagame.js"></script>
+</body>
+</html>
