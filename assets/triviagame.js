@@ -22,19 +22,37 @@ $(document).ready(function () {
         q1: 'Who is the underlying antagonist in all parts of Jojos Bizarre Adventure?',
         q2: 'Who does the author Hirohiko Araki love but is hated by all true Jojo fans?',
         q3: 'Who is the main Joestar in Part 4: Diamond is Unbreakable?',
-        q4: 'Which Jojo villain stand erases time?'
+        q4: 'Which Jojo villain stand erases time?',
+        q5: 'What sound does Jotaros stand make while attacking?',
+        q6: 'What is Dios signature cry?',
+        q7: 'What is the second verse of Gyro Zeppelis pizza song?',
+        q8: 'What is the seventh and greatest part of Jojos Bizarre Adventure?',
+        q9: 'Who is the author of Jojo?',
+        q10: 'In Steel Ball Run, what does Johnny want to touch?'
     },
     options: {
         q1: ['Yoshikage Kira', 'Dio Brando', 'Kars', 'Diavolo'],
         q2: ['Jotaro Kujo', 'Kishibe Rohan', 'Johnny Joestar', 'Okuyasu Nijimura'],
         q3: ['Jolyne Kujo', 'Jonathan Joestar', 'Josuke Higashikata', 'Joseph Joestar'],
-        q4: ['King Crimson', 'The World', 'Killer Queen', 'Dirty Deeds Done Dirt Cheap']
+        q4: ['King Crimson', 'The World', 'Killer Queen', 'Dirty Deeds Done Dirt Cheap'],
+        q5: ['Ora ora', 'Muda muda', 'Ari ari', 'THE WORLD'],
+        q6: ['R E E E E', 'WRYYY', 'OWWOOOO', 'Yare yare daze...'],
+        q7: ['Gorgonzola, zola, zola', 'Mozzarella, rella, rella', 'Swiss, iss, iss', 'Tomatoe, tatoe, tatoe'],
+        q8: ['Phantom Blood', 'Golden Wind', 'Steel Ball Run', 'Adventure in Egypt'],
+        q9: ['Hirohiko Araki', 'Gensuku Toriyama', 'Toyashima Saitama', 'Ori Getsuban'],
+        q10: ['The Presidents face', 'Lucy Steel', 'Gyros balls', 'Slowdancer']
     },
     answers: {
         q1: 'Dio Brando',
         q2: 'Kishibe Rohan',
         q3: 'Josuke Higashikata',
-        q4: 'King Crimson'
+        q4: 'King Crimson',
+        q5: 'Ora ora',
+        q6: 'WRYYY',
+        q7: 'Gorgonzola, zola, zola',
+        q8: 'Steel Ball Run',
+        q9: 'Hirohiko Araki',
+        q10: 'Gyros balls'
     },
 
     //Trivia method to start game
